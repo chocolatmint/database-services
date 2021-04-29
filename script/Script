@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS customer (
+   id serial NOT NULL,
+   name character varying(50),
+   phone character varying(30),
+   CONSTRAINT customer_pkey PRIMARY KEY (id)
+);
+
+
+select * from customer;
+
+-- SEQUENCE: public.customer_id_seq
+
+-- DROP SEQUENCE public.customer_id_seq;
+
+CREATE SEQUENCE public.customer_id_seq
+    INCREMENT 1
+    START 1
+    MINVALUE 1
+    MAXVALUE 9223372036854775807
+    CACHE 1;
+
+ALTER SEQUENCE public.customer_id_seq
+    OWNER TO "maudy.avianti";

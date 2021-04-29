@@ -1,0 +1,9 @@
+id/co/test/database/services/dto/Response.class
+id/co/test/database/services/DatabaseServices.class
+id/co/test/database/services/dto/CustomerRequestDTO.class
+id/co/test/database/services/domain/Customer.class
+id/co/test/database/services/dao/CustomerDAO.class
+id/co/test/database/services/config/WebConfig.class
+id/co/test/database/services/controller/Controller.class
+id/co/test/database/services/service/impl/ServiceImpl.class
+id/co/test/database/services/service/Service.class
